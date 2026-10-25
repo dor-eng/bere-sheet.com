@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How Many Stalls Do You Need? Mobile Toilet Calculator for Events | Bereshit</title>
+<meta name="description" content="How many toilet stalls does your event need? Enter the number of guests and get a recommendation based on the rules Bereshit recommends: 1-2 stalls per 100 guests, and a luxury restroom trailer by guest count.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Bereshit Mobile Toilets">
+<meta property="og:title" content="How Many Stalls Do You Need? Mobile Toilet Calculator for Events | Bereshit">
+<meta property="og:description" content="How many toilet stalls does your event need? Enter the number of guests and get a recommendation based on the rules Bereshit recommends: 1-2 stalls per 100 guests, and a luxury restroom trailer by guest count.">
+<meta property="og:url" content="https://bere-sheet.com/en/calculator.html">
+<meta property="og:image" content="https://bere-sheet.com/assets/og-logo.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Bereshit Mobile Toilets logo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#EEE9DF">
+<link rel="icon" href="../assets/logo-navy.svg" type="image/svg+xml">
+<link rel="preload" href="../assets/fonts/ibm-plex-sans-hebrew-hebrew-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/ibm-plex-sans-hebrew-hebrew-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../scrollcraft.css">
+<link rel="stylesheet" href="../site.css">
+<style>
+.calc{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:32px;align-items:start}
+.calc .in{grid-column:1/span 5}.calc output{grid-column:7/span 6;display:block}
+.calc label{display:block;font-weight:400;margin-bottom:8px}
+.calc input[type=number]{width:100%;max-width:12em;box-sizing:border-box;font:inherit;font-size:1.6em;font-weight:600;background:transparent;color:var(--ink);border:0;border-bottom:2px solid var(--ink);padding:6px 0}
+.calc .chk{display:flex;gap:10px;align-items:center;margin-top:24px}
+.calc .chk input{width:20px;height:20px;accent-color:var(--navy)}
+.calc .hint{font-size:.85em;color:var(--ink-soft);margin-top:8px}
+.res{margin:0}.res div{padding:16px 0;border-top:1px solid var(--rule)}
+.res dt{color:var(--ink-soft);font-size:.9em}.res dd{margin:4px 0 0;font-size:1.3em}.res b{font-weight:600;color:var(--blue)}
+@media (max-width:860px){.calc>*{grid-column:1/-1!important}}
+</style>
+<link rel="alternate" hreflang="he" href="../calculator.html">
+<link rel="alternate" hreflang="en" href="calculator.html">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<!--header-->
+<script>document.documentElement.classList.add('js')</script>
+<header class="site-hd" id="site-hd">
+  <a class="brand" href="index.html"><img src="../assets/logo-navy.svg" width="430" height="365" alt="Bereshit Mobile Toilets, home"></a>
+  <button class="nav-tg" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav id="site-nav" aria-label="Main navigation">
+    <ul class="nav-l">
+      <li><a href="index.html">Home</a></li>
+      <li class="grp"><span class="grp-t">Products</span>
+        <ul>
+          <li><a href="chemical.html">Chemical toilets</a></li>
+          <li><a href="luxury.html">Luxury trailers</a></li>
+          <li><a href="accessible.html">Accessible toilets</a></li>
+          <li><a href="showers.html">Showers</a></li>
+          <li><a href="sinks.html">Hand-wash stations</a></li>
+        </ul></li>
+      <li class="grp"><span class="grp-t">Solutions</span>
+        <ul>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="construction.html">Construction sites</a></li>
+          <li><a href="long-term.html">Long-term rental</a></li>
+        </ul></li>
+      <li><a href="mehiron.html">Pricing</a></li>
+      <li><a href="calculator.html">How many units?</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="knowledge.html">Good to Know</a></li>
+      <li class="grp"><span class="grp-t">Service areas</span>
+        <ul>
+          <li><a href="north.html">North</a></li>
+          <li><a href="center.html">Center</a></li>
+          <li><a href="south.html">South</a></li>
+        </ul></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <a class="lang" href="../calculator.html" hreflang="he" lang="he">עברית</a>
+  <a class="call" href="tel:*8216">Orders *8216</a>
+</header>
+<script>(function(){var h=document.getElementById('site-hd'),b=h.querySelector('.nav-tg'),p=location.pathname.split('/').pop()||'index.html';
+b.addEventListener('click',function(){var o=h.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+h.querySelectorAll('nav a').forEach(function(a){if(a.getAttribute('href')===p)a.setAttribute('aria-current','page')})})()</script>
+<!--/header-->
+<main id="main">
+  <section class="ch navy pg-hero" data-sc-act="flow">
+    <div>
+      <span class="label">Calculator</span>
+      <h1>How many stalls do you need?</h1>
+      <p class="lede">Enter how many guests will attend your event or site and get an initial estimate of the number of toilet stalls and the suitable trailer model. The recommendation is based on the rules Bereshit publishes, and the final fit is settled with the team.</p>
+    </div>
+  </section>
+
+  <section class="ch bone pg-sec" data-sc-act="flow" style="background:var(--bone-2)">
+    <div class="calc">
+      <div class="in">
+        <label for="c-guests">Number of guests</label>
+        <input id="c-guests" type="number" inputmode="numeric" min="1" step="1" value="200" aria-describedby="c-hint">
+        <p class="hint" id="c-hint">The recommendation updates instantly; there is nothing to submit.</p>
+        <div class="chk"><input id="c-acc" type="checkbox"><label for="c-acc" style="margin:0">Accessibility for people with disabilities is required</label></div>
+      </div>
+      <output id="c-out" for="c-guests c-acc" aria-live="polite"><p class="soft">The calculator requires JavaScript. The full rules appear below.</p></output>
+    </div>
+  </section>
+
+  <section class="ch alt pg-sec" data-sc-act="flow">
+    <h2>What the recommendation is based on</h2>
+    <ol class="rows">
+      <li><h3>Up to 200 guests: 2-3 stalls</h3><p>As a rule of thumb, for events or sites of up to 200 guests we recommend placing 2-3 toilet stalls. For an event of about 500 guests, increase to at least 5 stalls, and continue at a similar ratio.</p><!-- מקור: עמוד "שירותים כימיים בדרום". --></li>
+      <li><h3>1-2 stalls per 100 guests</h3><p>The accepted formula is 1-2 stalls per 100 guests at an event lasting several hours. Plan generously: an extra unit is better than long queues.</p><!-- מקור: עמודי "שירותים מפוארים להשכרה בצפון" ו"שירותים כימיים בדרום". --></li>
+      <li><h3>Luxury restroom trailers by guest count</h3><p>A 2-stall trailer for up to 200 guests, a 4-stall accessible trailer with a lift for up to 350 guests, a 6-stall trailer for up to 400 guests.</p><!-- מקור: עמוד "שירותים ניידים מחירים". --></li>
+    </ol>
+    <p class="more">For construction sites, the site does not give a fixed ratio per number of workers. The team will match the quantity to the number of workers on site. <a href="construction.html">Services for construction sites</a></p>
+  </section>
+
+  <section class="ch navy pg-sec cta" data-sc-act="flow" style="border-top:1px solid var(--rule)">
+    <p class="run">Want to be sure? Call <a href="tel:*8216">*8216</a> for a personal consultation and a no-obligation quote.</p>
+    <div class="acts"><a class="btn-p" href="tel:*8216">Call for a quote</a><a class="btn-s" href="mehiron.html">What goes into the price</a></div>
+
+  </section>
+</main>
+<!--footer-->
+<footer class="site-ft">
+  <div class="ft-top">
+    <img class="ft-logo" src="../assets/logo-white.svg" width="430" height="365" alt="Bereshit Mobile Toilets logo" loading="lazy">
+    <p class="ft-call"><span>Orders and quotes</span><a href="tel:*8216">*8216</a><a class="ft-mail" href="mailto:office@bere-sheet.co.il">office@bere-sheet.co.il</a></p>
+  </div>
+  <div class="ft-grid">
+    <nav aria-label="Services">
+      <h2>Services</h2>
+      <ul>
+        <li><a href="chemical.html">Chemical toilets</a></li>
+        <li><a href="luxury.html">Luxury trailers</a></li>
+        <li><a href="accessible.html">Accessible toilets</a></li>
+        <li><a href="showers.html">Showers</a></li>
+        <li><a href="sinks.html">Hand-wash stations</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="construction.html">Construction sites</a></li>
+        <li><a href="long-term.html">Long-term rental</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Information">
+      <h2>Information</h2>
+      <ul>
+        <li><a href="mehiron.html">Mobile toilet pricing</a></li>
+        <li><a href="calculator.html">How many units?</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="knowledge.html">Good to Know</a></li>
+        <li><a href="north.html">North</a> · <a href="center.html">Center</a> · <a href="south.html">South</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <address>
+      <h2>Offices</h2>
+      <p>33 Jabotinsky St., Ramat Gan<br><span class="soft">Twin Towers 1, 5251107</span></p>
+      <p>14 Nahlieli St., Acre (mailing address)<br><span class="soft">P.O. Box 2788, 2412701</span></p>
+    </address>
+  </div>
+  <div class="ft-foot">
+    <span>© Bereshit Mobile Toilets Ltd., company no. 513883918. All rights reserved.</span>
+    <ul>
+      <li><a href="accessibility-statement.html">Accessibility statement</a></li>
+      <li><a href="privacy.html">Privacy policy</a></li>
+      <li><a href="privacy.html#cookies" data-consent-open>Cookie settings</a></li>
+    </ul>
+  </div>
+<nav class="callbar" aria-label="Quick contact">
+  <a href="tel:*8216">Call *8216</a>
+  <a href="contact.html#quote">Get a quote</a>
+</nav>
+</footer>
+<!--/footer-->
+<script src="../assets/calc.js"></script>
+<script src="../assets/consent.js" defer></script>
+<script src="../scrollcraft.js"></script>
+<script>ScrollCraft.mount(document.body);</script>
+</body>
+</html>

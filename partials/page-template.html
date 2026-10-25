@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<!--
+  PAGE TEMPLATE (copy to B/<name>.html, then run: node tools/stamp.mjs)
+  - Fill TITLE (unique, built on the page's search phrase), DESCRIPTION, H1. No canonical (demo).
+  - Header/footer: keep the empty marker pairs; stamp.mjs fills them from partials/.
+  - Sections: <section class="ch bone|navy pg-sec" data-sc-act="flow">, alternate bone / navy.
+    Hero: add class pg-hero (label + h1 + .lede). Chapter rule:.
+    Text: .prose (max 38em). Two columns: .two (first child 6/12, last 5/12; stacks < 860px).
+    Numbered list: <ol class="rows"><li><h3>..</h3><p>..</p></li></ol> (Hebrew counters).
+    Source note under a fact: <small class="src">מקור: ...</small>.
+    FAQ: <div class="faq"><details><summary>Q</summary><p>A</p></details>...</div>.
+    CTA: <section class="ch navy pg-sec cta"> with <p class="run"> + <div class="acts"><a class="btn-p">..</a><a class="btn-s">..</a></div>.
+  - Reveal: only on blocks (and data-sc-stagger WITH). Check: node lab/reveal-check.mjs <url>.
+  - Images: assets/*.webp only, width/height set, loading="lazy", Hebrew alt. No forms that submit.
+  - Facts only from SOURCES.md / crawl2/FACTS-R2.md; append new ones to SOURCES.md.
+-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TITLE | בראשית שירותים ניידים</title>
+<meta name="description" content="DESCRIPTION">
+<meta name="theme-color" content="#EEE9DF">
+<link rel="icon" href="assets/logo-navy.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/ibm-plex-sans-hebrew-hebrew-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/ibm-plex-sans-hebrew-hebrew-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="scrollcraft.css">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="skip" href="#main">דלג לתוכן</a>
+<!--header--><!--/header-->
+<main id="main">
+  <section class="ch navy pg-hero" data-sc-act="flow">
+    <div>
+      <span class="label">LABEL</span>
+      <h1>H1</h1>
+      <p class="lede">LEDE</p>
+    </div>
+  </section>
+
+  <section class="ch alt pg-sec" data-sc-act="flow">
+    <div class="prose">
+      <h2>H2</h2>
+      <p>TEXT</p>
+      <small class="src">מקור: PAGE</small>
+    </div>
+  </section>
+
+  <section class="ch bone pg-sec" data-sc-act="flow">
+    <div class="faq">
+      <h2>שאלות נפוצות</h2>
+      <details><summary>QUESTION</summary><p>ANSWER</p></details>
+    </div>
+  </section>
+
+  <section class="ch navy pg-sec cta" data-sc-act="flow">
+    <p class="run">להזמנות חייגו <a href="tel:*8216">8216*</a>. נשמח לבנות עבורכם הצעת מחיר.</p>
+    <div class="acts"><a class="btn-p" href="tel:*8216">התקשרו להצעת מחיר</a><a class="btn-s" href="calculator.html">כמה תאים צריך</a></div>
+  </section>
+</main>
+<!--footer--><!--/footer-->
+<script src="scrollcraft.js"></script>
+<script>ScrollCraft.mount(document.body);</script>
+</body>
+</html>

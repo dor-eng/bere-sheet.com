@@ -1,0 +1,42 @@
+<!--header-->
+<script>document.documentElement.classList.add('js')</script>
+<header class="site-hd" id="site-hd">
+  <a class="brand" href="index.html"><img src="assets/logo-navy.svg" width="430" height="365" alt="בראשית שירותים ניידים, לדף הבית"></a>
+  <button class="nav-tg" type="button" aria-expanded="false" aria-controls="site-nav">תפריט</button>
+  <nav id="site-nav" aria-label="ניווט ראשי">
+    <ul class="nav-l">
+      <li><a href="index.html">בית</a></li>
+      <li class="grp"><span class="grp-t">מוצרים</span>
+        <ul>
+          <li><a href="chemical.html">שירותים כימיים</a></li>
+          <li><a href="luxury.html">קרונות מפוארים</a></li>
+          <li><a href="accessible.html">שירותים נגישים</a></li>
+          <li><a href="showers.html">מקלחות</a></li>
+          <li><a href="sinks.html">ברזיות</a></li>
+        </ul></li>
+      <li class="grp"><span class="grp-t">פתרונות</span>
+        <ul>
+          <li><a href="events.html">אירועים</a></li>
+          <li><a href="construction.html">אתרי בנייה</a></li>
+          <li><a href="long-term.html">השכרה ארוכת טווח</a></li>
+        </ul></li>
+      <li><a href="mehiron.html">מחירון</a></li>
+      <li><a href="calculator.html">כמה תאים צריך</a></li>
+      <li><a href="projects.html">פרויקטים</a></li>
+      <li><a href="knowledge.html">חשוב לדעת</a></li>
+      <li class="grp"><span class="grp-t">אזורי שירות</span>
+        <ul>
+          <li><a href="north.html">צפון</a></li>
+          <li><a href="center.html">מרכז</a></li>
+          <li><a href="south.html">דרום</a></li>
+        </ul></li>
+      <li><a href="contact.html">צור קשר</a></li>
+    </ul>
+  </nav>
+  <!--lang-->
+  <a class="call" href="tel:*8216">להזמנות 8216*</a>
+</header>
+<script>(function(){var h=document.getElementById('site-hd'),b=h.querySelector('.nav-tg'),p=location.pathname.split('/').pop()||'index.html';
+b.addEventListener('click',function(){var o=h.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+h.querySelectorAll('nav a').forEach(function(a){if(a.getAttribute('href')===p)a.setAttribute('aria-current','page')})})()</script>
+<!--/header-->

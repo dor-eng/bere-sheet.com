@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>שירותים ניידים להשכרה | קרונות מפוארים לאירועים ואתרי בנייה - בראשית</title>
+<meta name="description" content="שירותים ניידים לצד קרונות VIP, מקלחות, שאיבות ופתרונות שטח מתקדמים. פריסה ארצית ומענה מלא לכל סדר גודל של פרויקט.">
+<meta name="theme-color" content="#EEE9DF">
+<link rel="icon" href="assets/logo-navy.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/ibm-plex-sans-hebrew-hebrew-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/ibm-plex-sans-hebrew-hebrew-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="scrollcraft.css">
+<style>
+@font-face{font-family:"Plex Hebrew";font-weight:300;font-display:swap;src:url(assets/fonts/ibm-plex-sans-hebrew-hebrew-300-normal.woff2) format("woff2");unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}
+@font-face{font-family:"Plex Hebrew";font-weight:400;font-display:swap;src:url(assets/fonts/ibm-plex-sans-hebrew-hebrew-400-normal.woff2) format("woff2");unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}
+@font-face{font-family:"Plex Hebrew";font-weight:600;font-display:swap;src:url(assets/fonts/ibm-plex-sans-hebrew-hebrew-600-normal.woff2) format("woff2");unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}
+@font-face{font-family:"Plex Hebrew";font-weight:300;font-display:swap;src:url(assets/fonts/ibm-plex-sans-hebrew-latin-300-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F,U+2190-21FF}
+@font-face{font-family:"Plex Hebrew";font-weight:400;font-display:swap;src:url(assets/fonts/ibm-plex-sans-hebrew-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F,U+2190-21FF}
+@font-face{font-family:"Plex Hebrew";font-weight:600;font-display:swap;src:url(assets/fonts/ibm-plex-sans-hebrew-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F,U+2190-21FF}
+
+:root{
+  --bone:#EEE9DF; --bone-2:#E4DED1; --navy:#0D1B2A; --navy-2:#13263A;
+  --ink:#0D1B2A; --ink-soft:#4A5562; --blue:#0A4E7F; --rule:rgba(13,27,42,.22);
+  --sc-canvas:var(--bone); --sc-surface:var(--bone-2);
+  --sc-ink:var(--ink); --sc-ink-soft:var(--ink-soft);
+  --sc-accent:var(--blue); --sc-accent-ink:#F6F2EA;
+  --sc-font-display:"Plex Hebrew", "Arial Hebrew", system-ui, sans-serif;
+  --sc-font-text:"Plex Hebrew", "Arial Hebrew", system-ui, sans-serif;
+  --gutter:clamp(20px,5vw,88px); --margin:clamp(0px,7vw,128px);
+}
+body{font-weight:300;font-size:clamp(16px,1.05vw + 8px,19px);line-height:1.7;letter-spacing:0}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+.navy :focus-visible{outline-color:var(--bone)}
+h1,h2,h3{font-family:var(--sc-font-display);font-weight:600;letter-spacing:-.01em;margin:0;text-wrap:balance}
+p{margin:0;text-wrap:pretty}
+.ch{position:relative;padding:clamp(88px,14vh,160px) var(--gutter) clamp(88px,14vh,160px) calc(var(--gutter) + var(--margin))}
+.bone{background:var(--bone);color:var(--ink)}
+.navy{background:var(--navy);color:var(--bone);--ink-soft:#A9B3BD;--rule:rgba(238,233,223,.24)}
+.soft{color:var(--ink-soft)}
+.label{font-size:.78em;font-weight:400;letter-spacing:.02em;color:var(--ink-soft)}
+.inter{display:flex;align-items:baseline;gap:.9em;border-top:1px solid var(--rule);padding-top:18px;margin-bottom:clamp(40px,7vh,88px)}
+.inter b{font-weight:600;font-size:1.05em}
+.inter span{color:var(--ink-soft);font-size:.9em}
+figure{margin:0}
+figcaption{font-size:.8em;color:var(--ink-soft);padding-top:10px;border-top:1px solid var(--rule);margin-top:12px}
+.skip{position:absolute;inset-inline-start:12px;top:-60px;background:var(--navy);color:var(--bone);padding:10px 14px;z-index:50}
+.skip:focus{top:12px}
+
+/* title page */
+.title{min-height:100svh;display:grid;grid-template-rows:auto 1fr auto;padding-top:clamp(28px,5vh,56px);padding-bottom:clamp(28px,5vh,56px)}
+.title header{display:flex;justify-content:space-between;align-items:center;gap:24px}
+.title header img{width:78px;height:auto}
+.title header a{font-weight:400;text-decoration:none;border-bottom:1px solid var(--rule);padding-bottom:2px}
+.title .body{align-self:center;max-width:15.5em;font-size:clamp(40px,6.4vw,104px);line-height:1.02}
+.title .body .label{font-size:clamp(14px,1vw + 6px,17px);display:block;margin-bottom:28px;color:var(--blue)}
+.title .body h1{font-size:1em}
+.title .lede{max-width:34em;font-size:clamp(17px,.7vw + 11px,21px);margin-top:36px;color:var(--ink-soft)}
+.title footer{display:flex;justify-content:space-between;gap:24px;border-top:1px solid var(--rule);padding-top:16px;font-size:.88em}
+
+/* folio */
+.folio{position:fixed;left:clamp(14px,2.2vw,32px);bottom:clamp(14px,3vh,32px);z-index:40;writing-mode:vertical-rl;transform:rotate(180deg);font-size:13px;font-weight:400;letter-spacing:.04em;color:var(--ink);opacity:0;transition:opacity .4s,color .3s;pointer-events:none;display:flex;gap:12px;align-items:center}
+.folio.on{opacity:1}
+.folio.inv{color:var(--bone)}
+.folio i{font-style:normal;font-weight:600;font-size:15px}
+.folio::after{content:"";width:1px;height:48px;background:currentColor;opacity:.5}
+
+/* ch1 field */
+.spread{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(28px,5vw,96px);align-items:end}
+.spread h2{font-size:clamp(32px,3.4vw,58px);line-height:1.08;margin-bottom:28px}
+.media{overflow:hidden;background:var(--navy-2)}
+.media img{display:block;width:100%;height:118%;object-fit:cover;margin-top:-9%}
+.field .media{aspect-ratio:4/3}
+
+/* ch2 products */
+.cat{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(18px,2.4vw,40px) clamp(18px,2vw,32px)}
+.cat h2{grid-column:1/-1;font-size:clamp(30px,3vw,50px);margin-bottom:8px}
+.plate{background:#fff0;border-top:1px solid var(--rule);padding-top:14px}
+.plate .ph{background:var(--bone-2);aspect-ratio:4/3;display:grid;place-items:center;overflow:hidden}
+.plate .ph img{width:86%;height:86%;object-fit:contain;mix-blend-mode:multiply}
+.plate h3{font-size:1.25em;margin:18px 0 6px}
+.plate p{font-size:.95em;color:var(--ink-soft)}
+.plate ul{list-style:none;margin:12px 0 0;padding:0;font-size:.88em}
+.plate li{padding:6px 0;border-bottom:1px solid var(--rule)}
+.p-chem{grid-column:1/span 7}.p-chem .ph{aspect-ratio:16/10}
+.p-vip{grid-column:8/span 5;align-self:end}
+.p-basin{grid-column:1/span 4}.p-shower{grid-column:5/span 4}.p-trail{grid-column:9/span 4}
+
+/* ch3 drafting */
+.draft{padding:0}
+.draft .stage{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:clamp(24px,4vw,72px);align-items:center;padding:0 var(--gutter) 0 calc(var(--gutter) + var(--margin));height:100svh;box-sizing:border-box}
+.draft h2{font-size:clamp(30px,3vw,52px);line-height:1.08;margin-bottom:18px}
+.draft .intro{color:var(--ink-soft);font-size:.95em;margin-bottom:26px;max-width:28em}
+.ledger{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.ledger li{display:grid;grid-template-columns:4.2em 1fr;gap:4px 18px;padding:14px 0;border-bottom:1px solid var(--rule);color:var(--ink-soft);transition:color .25s}
+.ledger li b{grid-row:span 2;font-size:2.1em;line-height:1;font-weight:300;color:var(--ink-soft);transition:color .25s}
+.ledger li strong{font-weight:600}
+.ledger li span{font-size:.86em}
+.ledger li.is{color:var(--ink)}
+.ledger li.is b{color:var(--blue);font-weight:600}
+.sheet{position:relative;border:1px solid var(--rule);background:
+  linear-gradient(var(--rule),var(--rule)) 0 0/100% 1px no-repeat;padding:clamp(10px,1.5vw,22px)}
+.sheet svg{display:block;width:100%;height:auto;overflow:visible}
+.sheet .ln{fill:none;stroke:var(--navy);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.sheet .fine{stroke-width:1;stroke:var(--ink-soft)}
+.sheet .gd{stroke:var(--rule);stroke-width:1;fill:none}
+.sheet .tb{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--rule);margin-top:10px;padding-top:8px;font-size:12px;color:var(--ink-soft)}
+.sheet .tb strong{color:var(--ink);font-weight:600}
+
+/* ch4 audience */
+.aud{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(28px,5vw,96px)}
+.aud h2{font-size:clamp(30px,3vw,50px);margin-bottom:32px}
+.aud dl{margin:0}
+.aud dl div{display:grid;grid-template-columns:9em 1fr;gap:20px;padding:18px 0;border-top:1px solid var(--rule)}
+.aud dt{font-weight:600}
+.aud dd{margin:0;color:var(--ink-soft)}
+.aud .figs{display:grid;gap:36px;align-content:start;padding-top:10px}
+.aud .figs .media{aspect-ratio:4/3}
+.aud .figs .media img{height:100%;margin:0}
+
+/* ch5 service */
+.svc h2{font-size:clamp(30px,3vw,50px);max-width:14em}
+.svc .sub{margin:14px 0 48px;color:var(--ink-soft);max-width:36em}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(16px,2vw,32px);counter-reset:s}
+.steps li{counter-increment:s;padding-top:20px;position:relative;font-size:1.15em;font-weight:600}
+.steps li::before{content:"";position:absolute;inset:0 0 auto 0;height:2px;background:var(--bone)}
+.steps li span{display:block;font-size:.7em;font-weight:300;color:var(--ink-soft);margin-bottom:6px}
+.svc .price{margin-top:56px;max-width:40em;border-inline-start:2px solid var(--bone);padding-inline-start:20px}
+
+/* ch6 trust */
+.trust .top{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,6fr);gap:clamp(28px,5vw,96px);margin-bottom:72px}
+.trust h2{font-size:clamp(28px,2.7vw,46px);line-height:1.12}
+.trust .about p+p{margin-top:16px}
+.trust .num{font-weight:600;color:var(--blue);font-variant-numeric:tabular-nums}
+.quotes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,48px);margin-bottom:72px}
+.quotes blockquote{margin:0;border-top:1px solid var(--rule);padding-top:18px}
+.quotes p{font-size:1.02em}
+.quotes cite{display:block;font-style:normal;font-weight:600;font-size:.86em;margin-top:14px}
+.logos{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border-top:1px solid var(--rule);border-inline-start:1px solid var(--rule)}
+.logos li{list-style:none;border-bottom:1px solid var(--rule);border-inline-end:1px solid var(--rule);display:grid;place-items:center;padding:14px}
+.logos img{width:100%;max-width:150px;height:auto;filter:grayscale(1) contrast(1.05);mix-blend-mode:multiply;opacity:.85}
+.logos-wrap h3{font-size:1em;margin-bottom:16px}
+
+/* colophon */
+.colo{padding-bottom:48px}
+.colo .run{font-size:clamp(26px,2.7vw,46px);line-height:1.3;font-weight:300;max-width:22em}
+.colo .run a{font-weight:600;text-decoration:none;border-bottom:2px solid var(--bone)}
+.colo .grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:32px;margin-top:72px;border-top:1px solid var(--rule);padding-top:28px;font-size:.9em}
+.colo .dir{grid-column:1/span 5}.colo .adr{grid-column:6/span 3}.colo form{grid-column:9/span 4}
+.colo h3{font-size:.95em;margin-bottom:12px}
+.colo dl{margin:0}.colo dl div{padding:8px 0;border-bottom:1px solid var(--rule)}
+.colo dt{color:var(--ink-soft)}.colo dd{margin:0}
+.colo dd a{text-decoration:none}
+.colo address{font-style:normal}.colo address p{padding:8px 0;border-bottom:1px solid var(--rule)}
+.colo label{display:block;color:var(--ink-soft);margin-top:10px}
+.colo input,.colo textarea{width:100%;box-sizing:border-box;background:transparent;border:0;border-bottom:1px solid var(--rule);color:var(--bone);font:inherit;padding:8px 0}
+.colo textarea{min-height:64px;resize:vertical}
+.colo button{margin-top:18px;background:var(--bone);color:var(--navy);border:0;font:inherit;font-weight:600;padding:12px 22px;cursor:not-allowed}
+.colo .note{font-size:.8em;color:var(--ink-soft);margin-top:8px}
+.colo .foot{display:flex;justify-content:space-between;gap:20px;margin-top:64px;font-size:.8em;color:var(--ink-soft)}
+.colo .foot img{width:56px;height:auto;opacity:.9}
+
+@media (max-width:860px){
+  :root{--margin:0px}
+  .spread,.aud,.trust .top{grid-template-columns:1fr}
+  .cat{grid-template-columns:1fr 1fr}
+  .cat>*{grid-column:auto!important}.p-chem{grid-column:1/-1!important}
+  .draft .stage{grid-template-columns:1fr;align-content:center;gap:18px;padding-top:56px;padding-bottom:24px}
+  .draft h2{font-size:26px;margin-bottom:8px}
+  .draft .intro{display:none}
+  .ledger li{padding:8px 0;grid-template-columns:3em 1fr}
+  .ledger li b{font-size:1.6em}
+  .steps{grid-template-columns:1fr 1fr;row-gap:28px}
+  .quotes{grid-template-columns:1fr}
+  .logos{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .colo .grid>*{grid-column:1/-1!important}
+  .aud dl div{grid-template-columns:1fr;gap:4px}
+  .folio{left:8px;font-size:11px}
+  .title .body{font-size:clamp(38px,11vw,64px)}
+}
+a[href^="tel:"]{white-space:nowrap}
+@media (prefers-reduced-motion:reduce){#draft{height:auto!important}.folio,.ledger li,.ledger li b{transition:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#field">דלג לתוכן</a>
+<div class="folio" aria-hidden="true"><i></i><span></span></div>
+
+<main>
+  <!-- TITLE PAGE: type only, no media above the fold -->
+  <section class="ch bone title" data-sc-act="flow" data-chapter="" data-title="">
+    <header>
+      <img src="assets/logo-navy.svg" width="430" height="365" alt="בראשית שירותים ניידים">
+      <a href="tel:*8216">להזמנות 8216*</a>
+    </header>
+    <div class="body" data-sc-in>
+      <span class="label">שירותים ניידים להשכרה</span>
+      <h1>בראשית. ספק אחד, פתרון מלא.</h1>
+      <p class="lede">שירותים ניידים לצד קרונות VIP, מקלחות, שאיבות ופתרונות שטח מתקדמים. נהנים מזמינות גבוהה, פריסה ארצית ומענה מלא לכל סדר גודל של פרויקט.</p>
+    </div>
+    <footer class="soft"><span>20 שנה של סטנדרט מוביל בישראל</span><span>אתרי בנייה · אירועים · תעשיות · רשויות</span></footer>
+  </section>
+
+  <!-- א: FIELD. parallax inside a captioned media column -->
+  <section id="field" class="ch navy field" data-sc-act="flow" data-chapter="א" data-title="בשטח">
+    <div class="inter"><b>א</b><span>בשטח</span></div>
+    <div class="spread">
+      <div class="sc-stack" data-sc-in data-sc-stagger="80">
+        <h2>תשתית שמאפשרת לעבוד אחרת</h2>
+        <p>בראשית מספקת מעטפת שירות מלאה לאתרי בנייה, אירועים ופרויקטים בכל רחבי הארץ. החל משירותים ניידים, קרונות VIP ועד מקלחות וברזיות, שאיבות ופתרונות שטח מתקדמים.</p>
+        <p class="soft">כל המוצרים זמינים להשכרה גם לטווח ארוך: השכרה חודשית לאתרי בנייה, מפעלים ופרויקטים מתמשכים, כולל שאיבות ותחזוקה שוטפת.</p>
+      </div>
+      <figure>
+        <div class="media"><img data-sc-parallax="-0.08" src="assets/field.webp" width="1920" height="813" loading="lazy" alt="שורות של תאי שירותים כימיים כחולים על מדשאה, עצי דקל וקו רקיע עירוני ברקע"></div>
+        <figcaption>שירותים כימיים בפריסה בשטח פתוח.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ב: PRODUCTS. plates wipe in -->
+  <section class="ch bone" data-sc-act="flow" data-chapter="ב" data-title="המוצרים">
+    <div class="inter"><b>ב</b><span>המוצרים</span></div>
+    <div class="cat">
+      <h2>המוצרים שלנו</h2>
+      <article class="plate p-chem">
+        <div class="ph" data-sc-reveal="left" data-sc-reveal-at="0.08 0.34"><img src="assets/restroom.webp" width="1140" height="867" alt="תא שירותים כימי נייד"></div>
+        <h3>שירותים כימיים</h3>
+        <p>שירותים כימיים אינם מחוברים למערכת ביוב או מים, וניתן להציב אותם בכל מקום ללא הכנה מוקדמת.</p>
+        <ul><li>דגם סטנדרט</li><li>דגם מפואר</li><li>דגם נכים</li><li>דגם מיני</li></ul>
+      </article>
+      <article class="plate p-vip">
+        <div class="ph" data-sc-reveal="left" data-sc-reveal-at="0.14 0.40"><img src="assets/vip.webp" width="768" height="512" alt="תא VIP לבן עם דלת אחת"></div>
+        <h3>תא VIP סולארי ממוזג</h3>
+        <p>תא מעוצב עם מערכת הדחת מים, מזגן, כיור עם מים זורמים וסבונים, מפיצי ריח ותאורת לד. התא עובד באופן עצמאי באמצעות מערכת סולארית, למעט המזגן הדורש חיבור לחשמל 220V.</p>
+      </article>
+      <article class="plate p-basin">
+        <div class="ph" data-sc-reveal="left" data-sc-reveal-at="0.26 0.50"><img src="assets/basin.webp" width="1140" height="867" alt="ברזיה עצמאית ניידת"></div>
+        <h3>ברזיות</h3>
+        <ul><li>ברזיה עצמאית</li><li>ברזיה עצמאית 2 ברזים</li></ul>
+      </article>
+      <article class="plate p-shower">
+        <div class="ph" data-sc-reveal="left" data-sc-reveal-at="0.30 0.54"><img src="assets/shower.webp" width="1140" height="867" alt="מקלחת ניידת, דלת פתוחה"></div>
+        <h3>מקלחות ניידות</h3>
+        <ul><li>מקלחת ניידת</li></ul>
+      </article>
+      <article class="plate p-trail">
+        <div class="ph" data-sc-reveal="left" data-sc-reveal-at="0.34 0.58"><img src="assets/trailer.webp" width="1140" height="867" alt="קרון שירותים מפואר נגרר עם שתי דלתות"></div>
+        <h3>קרונות מפוארים</h3>
+        <ul><li>קרון מפואר דגם 2 תאים</li><li>קרון מפואר דגם 4 תאים נגיש</li><li>קרון מפואר דגם 6 תאים</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ג: THE PEAK. pinned drafting table, bespoke -->
+  <section class="ch bone draft" data-sc-act="pin" data-sc-span="3.6" data-chapter="ג" data-title="הקרון" id="draft">
+    <div class="stage sc-stage" data-sc-stage>
+      <div>
+        <h2>קרונות מפוארים</h2>
+        <p class="intro">שירותים ניידים מעוצבים ברמה גבוהה, כוללים תאים מרווחים, כיורים, מראות, תאורה, מיזוג אוויר, מוזיקה ועוד.</p>
+        <ol class="ledger" aria-label="דגמי הקרונות">
+          <li class="is" data-n="2"><b>2</b><strong>קרון 2 תאים</strong><span>מתאים לאירועים של עד 200 אורחים, מחולק לתא נשים וגברים.</span></li>
+          <li data-n="4"><b>4</b><strong>קרון 4 תאים</strong><span>מתאים לאירועים של עד 350 אורחים. מחולק ל-4 תאים וכולל כניסה מותאמת לנכים.</span></li>
+          <li data-n="6"><b>6</b><strong>קרון 6 תאים</strong><span>מתאים לאירועים של עד 400 אורחים. מחולק לאגף נשים ואגף גברים, עם לובי מרווח בכל אגף.</span></li>
+        </ol>
+      </div>
+      <figure class="sheet" aria-label="שרטוט קו של קרון שירותים, גדל מ-2 ל-4 ול-6 תאים">
+        <svg viewBox="90 72 1100 356" role="img" aria-hidden="true">
+          <g class="gd"><path d="M0 60H1200M0 180H1200M0 300H1200M120 0V430M440 0V430M760 0V430M1080 0V430"/></g>
+          <path class="ln fine" d="M90 406H1190"/>
+          <g id="dw"></g>
+        </svg>
+        <div class="tb"><span>קרון שירותים מפואר · מבט צד</span><strong id="tbn">דגם 2 תאים</strong></div>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ד: AUDIENCE -->
+  <section class="ch bone" data-sc-act="flow" data-chapter="ד" data-title="למי" style="background:var(--bone-2)">
+    <div class="inter"><b>ד</b><span>קהל היעד</span></div>
+    <div class="aud">
+      <div>
+        <h2>המומחיות שלנו</h2>
+        <dl data-sc-stagger="70">
+          <div><dt>אתרי בנייה</dt><dd>מענה לוגיסטי מלא לקבלנים ויזמים לטובת סביבת עבודה בטוחה ונוחה.</dd></div>
+          <div><dt>אירועים</dt><dd>מעטפת סניטציה היקפית ואסתטית המשתלבת בקלות בכל הפקת חוץ.</dd></div>
+          <div><dt>רשויות וממשלה</dt><dd>עמידה בסטנדרטים הגבוהים ביותר עבור גופים מוסדיים, מועצות ופרויקטים לאומיים.</dd></div>
+          <div><dt>VIP</dt><dd>קרונות שירותים מפוארים המעניקים לאורחים שלכם סטנדרט של בית מלון.</dd></div>
+          <div><dt>תעשיות</dt><dd>ליווי המותאם אישית לסביבת עבודה תעשייתית ולוגיסטית</dd></div>
+        </dl>
+      </div>
+      <div class="figs">
+        <figure data-sc-in><div class="media"><img src="assets/trailers-row.webp" width="768" height="512" loading="lazy" alt="שורת קרונות שירותים מפוארים לבנים עם לוגו בראשית, על דשא"></div><figcaption>קרונות מפוארים בשטח.</figcaption></figure>
+        <figure data-sc-in><div class="media"><img src="assets/construction.webp" width="1000" height="700" loading="lazy" alt="אתר בנייה עם עגורן ומבנים בשלד"></div><figcaption>אתרי בנייה.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ה: SERVICE -->
+  <section class="ch navy svc" data-sc-act="flow" data-chapter="ה" data-title="השירות">
+    <div class="inter"><b>ה</b><span>השירות</span></div>
+    <h2 data-sc-in>מעטפת מלאה מקצה לקצה</h2>
+    <p class="sub" data-sc-in>התאמת הציוד, הובלה והצבה, ולאורך תקופת ההשכרה שאיבות, תחזוקה וניקיון, ובסיום איסוף.</p>
+    <ol class="steps" aria-label="מה כולל השירות?">
+      <li data-sc-reveal="left" data-sc-reveal-at="0.20 0.40"><span>1</span>התאמת הציוד</li>
+      <li data-sc-reveal="left" data-sc-reveal-at="0.26 0.46"><span>2</span>הובלה והצבה</li>
+      <li data-sc-reveal="left" data-sc-reveal-at="0.32 0.52"><span>3</span>שאיבות, תחזוקה וניקיון</li>
+      <li data-sc-reveal="left" data-sc-reveal-at="0.38 0.58"><span>4</span>איסוף</li>
+    </ol>
+    <p class="price" data-sc-in>עלות ההשכרה משתנה בהתאם לסוג הציוד, משך ההשכרה, הכמות ומיקום הפרויקט. נשמח לבנות עבורכם הצעת מחיר מדויקת, הוגנת ומהירה, בדרך כלל כבר באותו היום.</p>
+  </section>
+
+  <!-- ו: TRUST -->
+  <section class="ch bone trust" data-sc-act="flow" data-chapter="ו" data-title="לקוחות">
+    <div class="inter"><b>ו</b><span>אודות</span></div>
+    <div class="top">
+      <h2 data-sc-in>כתובת אחת לשירותים ניידים, פתרונות שטח וסניטציה בישראל</h2>
+      <div class="about" data-sc-in>
+        <p>בזכות מעל <span class="num" data-sc-count="0 20" data-sc-count-ms="1100">20</span> שנות ניסיון בתחום, יכולת תפעול רחבה ויחס אישי ללקוחות, בראשית שירותים ניידים הפכה לספקית מובילה בתחום השירותים הניידים בישראל.</p>
+        <p class="soft">כן, אנחנו מספקים יחידות נגישות מותאמות.</p>
+      </div>
+    </div>
+    <h3 class="label" style="margin-bottom:18px">לקוחות ממליצים</h3>
+    <div class="quotes" data-sc-stagger="90">
+      <blockquote><p>תודה על השירות ותרומתכם להצלחת מצעד הגאווה גם בשנה זו. לעוד שנים רבות של עבודה משותפת בעיר</p><cite>עיריית תל אביב</cite></blockquote>
+      <blockquote><p>תושבי שוהם זכו השנה לציין את אירועי זיכרון ועצמאות בשורה של טקסים ואירועים לתפארת אשר עברו בסדר מופתי ללא תקלות.</p><cite>מועצה מקומית שוהם</cite></blockquote>
+      <blockquote><p>תודה רבה על שירות מיומן, מקצועי ואדיב במירוץ לילה לבן נייקי. כיף לעבוד מול ספקים שבראשם עומד הסדר והארגון.</p><cite>ענת לבנשטיין הפקת משאלות</cite></blockquote>
+    </div>
+    <div class="logos-wrap">
+      <h3>בין לקוחותינו</h3>
+      <ul class="logos" style="margin:0;padding:0">
+        <li><img src="assets/clients/c1.webp" width="185" height="110" loading="lazy" alt="עיריית תל אביב-יפו"></li>
+        <li><img src="assets/clients/c2.webp" width="185" height="110" loading="lazy" alt="קרן קיימת לישראל"></li>
+        <li><img src="assets/clients/c3.webp" width="185" height="110" loading="lazy" alt="משרד ראש הממשלה"></li>
+        <li><img src="assets/clients/c4.webp" width="185" height="110" loading="lazy" alt="לוגו לקוח"></li>
+        <li><img src="assets/clients/c5.webp" width="185" height="110" loading="lazy" alt="לוגו לקוח"></li>
+        <li><img src="assets/clients/c6.webp" width="185" height="110" loading="lazy" alt="לוגו לקוח"></li>
+        <li><img src="assets/clients/c7.webp" width="185" height="110" loading="lazy" alt="לוגו לקוח"></li>
+        <li><img src="assets/clients/c8.webp" width="185" height="110" loading="lazy" alt="לוגו לקוח"></li>
+        <li><img src="assets/clients/c9.webp" width="185" height="110" loading="lazy" alt="לוגו לקוח"></li>
+        <li><img src="assets/clients/c10.webp" width="185" height="110" loading="lazy" alt="לוגו לקוח"></li>
+        <li><img src="assets/clients/c11.webp" width="185" height="110" loading="lazy" alt="לוגו לקוח"></li>
+        <li><img src="assets/clients/c12.webp" width="185" height="110" loading="lazy" alt="לוגו לקוח"></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ז: COLOPHON. the plate holds -->
+  <section class="ch navy colo" data-sc-act="flow" data-chapter="ז" data-title="יצירת קשר" id="contact">
+    <div class="inter"><b>ז</b><span>יצירת קשר</span></div>
+    <p class="run" data-sc-in>להזמנות חייגו <a href="tel:*8216">8216*</a> או <a href="tel:+97246424424">04-6424424</a>, או כתבו לנו ל-<a href="mailto:office@bere-sheet.co.il">office@bere-sheet.co.il</a>. נשמח לבנות עבורכם הצעת מחיר.</p>
+    <div class="grid">
+      <div class="dir">
+        <h3>פרטי התקשרות</h3>
+        <dl>
+          <div><dt>משרד ראשי</dt><dd><a href="tel:+97246424424">04-6424424</a></dd></div>
+          <div><dt>מכירות ואיסוף תאים</dt><dd>04-6424424 שלוחה 1 · <a href="mailto:office@bere-sheet.co.il">office@bere-sheet.co.il</a></dd></div>
+          <div><dt>מחלקת תפעול</dt><dd>04-6424424 שלוחה 2 · <a href="mailto:Tiful@bere-sheet.co.il">Tiful@bere-sheet.co.il</a></dd></div>
+          <div><dt>הנהלת חשבונות</dt><dd>04-6424424 שלוחה 4 · <a href="mailto:account@bere-sheet.co.il">account@bere-sheet.co.il</a></dd></div>
+        </dl>
+      </div>
+      <address class="adr">
+        <h3>משרדי החברה</h3>
+        <p>זבוטינסקי 33, רמת גן<br><span class="soft">מגדל התאומים 1, 5251107</span></p>
+        <p>נחליאלי 14, עכו (למשלוח דואר)<br><span class="soft">ת.ד 2788, 2412701</span></p>
+      </address>
+      <form onsubmit="return false" aria-label="שלחו הודעה">
+        <h3>שלחו הודעה</h3>
+        <label for="f-n">שם</label><input id="f-n" autocomplete="name">
+        <label for="f-p">מס' טלפון</label><input id="f-p" type="tel" autocomplete="tel" dir="ltr">
+        <label for="f-m">איך נוכל לעזור לכם?</label><textarea id="f-m"></textarea>
+        <button type="button" aria-disabled="true">שליחה</button>
+        <p class="note">הדמיה בלבד: הטופס אינו שולח.</p>
+      </form>
+    </div>
+    <div class="foot">
+      <span>השכרת שירותים ניידים לאירועים, לפרויקטים ולטווח ארוך. שירות בפריסה ארצית.<br>© כל הזכויות שמורות לבראשית שירותים ניידים</span>
+      <img src="assets/logo-white.svg" width="430" height="365" alt="" loading="lazy">
+    </div>
+  </section>
+</main>
+
+<script src="scrollcraft.js"></script>
+<script>ScrollCraft.mount(document.body);</script>
+<script>
+/* Signature: the drafting table. Bespoke, reads the engine's --sc-p on #draft. */
+(function(){
+  var NS='http://www.w3.org/2000/svg', g=document.getElementById('dw'), act=document.getElementById('draft');
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var R=1080, W=160, T=110, Bt=330, CH=346;
+  function mod(i){ // module i (1..6), drawn right to left
+    var x1=R-W*(i-1), x0=R-W*i, d=[];
+    d.push('M'+x1+' '+T+'H'+x0+'V'+Bt+'H'+x1);              // roof edge, wall, floor
+    d.push('M'+x1+' 96H'+x0);                               // roof cap
+    d.push('M'+(x0+44)+' 318V146H'+(x1-44)+'V318');           // door
+    d.push('M'+(x1-58)+' 236v18');                           // handle
+    d.push('M'+(x0+60)+' 126h40v10h-40z');                   // vent
+    d.push('M'+(x0+40)+' 346h80M'+(x0+48)+' 362h64M'+(x0+56)+' 378h48'); // steps
+    d.push('M'+x1+' '+CH+'H'+x0);                            // chassis
+    return d.join('');
+  }
+  var stages=[
+    ['M1150 352L1080 336M1150 352v20M1080 '+T+'V'+Bt+'M1080 96V'+T, mod(1), mod(2), 'M840 372m-34 0a34 34 0 1 0 68 0a34 34 0 1 0-68 0'],
+    [mod(3), mod(4), 'M560 372m-34 0a34 34 0 1 0 68 0a34 34 0 1 0-68 0'],
+    [mod(5), mod(6), 'M300 372m-34 0a34 34 0 1 0 68 0a34 34 0 1 0-68 0', 'M384 372m-34 0a34 34 0 1 0 68 0a34 34 0 1 0-68 0', 'M120 96V'+T]
+  ];
+  var win=[[0,0.34],[0.33,0.67],[0.66,0.985]], paths=[];
+  stages.forEach(function(list,s){ list.forEach(function(d,k){
+    var p=document.createElementNS(NS,'path'); p.setAttribute('d',d); p.setAttribute('class','ln'); g.appendChild(p);
+    var L=p.getTotalLength(); p.style.strokeDasharray=L; p.style.strokeDashoffset=L;
+    paths.push({el:p,L:L,s:s,k:k,n:list.length});
+  });});
+  var sheet=document.querySelector('.sheet'), rows=[].slice.call(document.querySelectorAll('.ledger li')), tbn=document.getElementById('tbn'), last=-1, lastN=0;
+  function clamp(v){return v<0?0:v>1?1:v}
+  function frame(){
+    var p=parseFloat(getComputedStyle(act).getPropertyValue('--sc-p'))||0;
+    if(reduce) p=Math.max(p,1);
+    if(Math.abs(p-last)>0.0005){
+      last=p; var sum=0;
+      paths.forEach(function(o){
+        var w=win[o.s], span=(w[1]-w[0])/o.n, a=w[0]+span*o.k;
+        var t=clamp((p-a)/span); t=1-Math.pow(1-t,2);
+        o.el.style.strokeDashoffset=(o.L*(1-t)).toFixed(1); sum+=t;
+      });
+      sheet.setAttribute('data-sc-verify-state',(sum/paths.length).toFixed(3));
+      var n=p<0.34?2:p<0.66?4:6; if(reduce) n=0;
+      if(n!==lastN){ lastN=n;
+        rows.forEach(function(r){ r.classList.toggle('is', +r.dataset.n===n || n===0); });
+        tbn.textContent=n?('דגם '+n+' תאים'):'דגמים 2, 4, 6 תאים';
+      }
+    }
+    if(!reduce) requestAnimationFrame(frame);
+  }
+  frame();
+  /* Folio: chapter letter and title in the margin, colour follows the ground under it */
+  var folio=document.querySelector('.folio'), fi=folio.querySelector('i'), fs=folio.querySelector('span');
+  var secs=[].slice.call(document.querySelectorAll('[data-chapter]'));
+  function fol(){
+    var mid=innerHeight*0.5, low=innerHeight-40, cur=null, under=null;
+    secs.forEach(function(s){ var r=s.getBoundingClientRect();
+      if(r.top<=mid && r.bottom>mid) cur=s; if(r.top<=low && r.bottom>low) under=s; });
+    var on=cur && cur.dataset.chapter;
+    folio.classList.toggle('on',!!on);
+    if(on){ fi.textContent=cur.dataset.chapter; fs.textContent=cur.dataset.title; }
+    folio.classList.toggle('inv', !!(under && under.classList.contains('navy')));
+  }
+  addEventListener('scroll',fol,{passive:true}); addEventListener('resize',fol); fol();
+})();
+</script>
+</body>
+</html>
